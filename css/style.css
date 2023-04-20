@@ -7,7 +7,7 @@
 
 body{
 font-family: Fredoka, sans serif;
-width: 1200px;
+width: 1280px;
 margin: auto;
 }
 
@@ -27,16 +27,16 @@ p{
 }
 
 .card{
-height: 100px;
+height: 120px;
 width: 400px;
 background-color: black;
 color: white;
 float: left;
-padding: 0 0rem;
+margin: 0px 10px;
 }
 
 img{
-    height: 100px;
+    height: 120px;
 }
 
 .clearfix::after{
@@ -45,3 +45,6 @@ img{
     clear: both;
 }
 
+section{
+    margin: 20px 0px;
+}
