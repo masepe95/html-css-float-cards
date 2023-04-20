@@ -7,7 +7,7 @@
 
 body{
 font-family: Fredoka, sans serif;
-width: 1280px;
+width: 1260px;
 margin: auto;
 }
 
@@ -33,10 +33,16 @@ background-color: black;
 color: white;
 float: left;
 margin: 0px 10px;
+vertical-align: middle;
+line-height: 30px;
+border-radius: 20px;
 }
 
 img{
     height: 120px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px 0 0 20px;
 }
 
 .clearfix::after{
@@ -47,4 +53,18 @@ img{
 
 section{
     margin: 20px 0px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+span{
+    color: #B48C68;
+    display: block;
+}
+
+a{
+    color: #347FAD;
+    text-decoration: none;
 }
