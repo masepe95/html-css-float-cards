@@ -2,4 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
+body{
+font-family: Fredoka, sans serif;
+width: 1200px;
+margin: auto;
+}
+
+header,p {
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 50px 0px;
+    color: #E5316F
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.card{
+height: 100px;
+width: 400px;
+background-color: black;
+color: white;
+float: left;
+padding: 0 0rem;
+}
+
+img{
+    height: 100px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
